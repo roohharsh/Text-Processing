@@ -2,7 +2,7 @@ import React, { useState, useRef } from 'react';
 import axios from 'axios';
 import '../css/home.css';
 
-const Header = () => {
+const Home = () => {
   const [inputText, setInputText] = useState('');
   const [outputText, setOutputText] = useState('');
   const [isLoading, setIsLoading] = useState(false);
@@ -90,4 +90,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Home;

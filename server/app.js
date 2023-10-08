@@ -7,10 +7,12 @@ app.use(express.json());
 app.use(cors());
 
 // Import route modules
-const apiKeyRoute = require('./routes/apiKey');
+const paraphraseRoute = require('./routes/paraphrase');
+const translateRoute = require('./routes/translator');
 
 // Use the route modules
-app.use('/api/apikey', apiKeyRoute);
+app.use('/api/apikey', paraphraseRoute);
+app.use('/api/apikey', translateRoute);
 
 
 const port = process.env.PORT || 3000;
