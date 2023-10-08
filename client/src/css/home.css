@@ -1,0 +1,23 @@
+.textArea{
+    display: flex;
+    width: 80%;
+    margin: 60px auto;
+}
+
+textarea{
+    width: 93%;
+    height: 450px;
+    border: none;
+    resize: none;
+    font-size: 20px;
+    padding: 20px;
+    letter-spacing: 1px;
+}
+
+.firstArea{
+    width: 50%;
+}
+
+.secondArea{
+    width: 50%;
+}
